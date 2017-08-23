@@ -19,7 +19,7 @@ export default class Counter extends Component {
         }, 1000)
 
         return (
-            <div className="puzzleBox evenAndOddPB">
+            <div className="puzzleBox sumPB">
                 <h4>Counter</h4>
                 <span className="resultsBox">Seconds since component rendered : {this.state.count}</span>
             </div>
